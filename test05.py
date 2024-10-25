@@ -3,9 +3,5 @@ def Noi(say):
     print(say)
 
 Noi("Xin Chao")
-
-# (test03.py)
-# def chao_em():
-#    print("Chao em")
-#
-#chao_em()
+Noi("Chao em")
+Noi("Chao anh")
