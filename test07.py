@@ -1,20 +1,25 @@
+# variable, use test02.py
 tk = 0
 
+# def, use test03.py
 def thu(tk):
     thu = float(input("Nhap so tien thu: "))
+    # increment, use test06.py
     tk += thu
-    # same as tk = thu + thu
+    # same as tk = tk + thu
     return tk
 
 def chi(tk):
     chi = float(input("nhap so tiem chi: "))
+    # decrement, use test06.py
     tk -= chi
-    # tk = chi - chi
+    # tk = tk - chi
     return tk
 
+# while is a loop by Python. please check it later
 while True:
     a = input("Nhap lua chon: ")
-
+    # if is condition. if -> elif or if -> else. please check it later
     if a.lower() == "thu":
         tk = thu(tk)
         print(f"So tk sau khi thu : {tk}")
