@@ -1,1 +1,2 @@
-Read me
+How to use
+python <file name>
