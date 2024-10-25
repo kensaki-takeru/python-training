@@ -2,7 +2,7 @@
 def Noi(say):
     print(say)
 
-Noi("Xin Chao")
+Noi("Xin Chao") #=> Xin Chao
 
 # (test03.py)
 # def chao_em():
